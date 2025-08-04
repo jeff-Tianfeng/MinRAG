@@ -221,7 +221,7 @@ def plot(df_all: pd.DataFrame):
 if __name__ == "__main__":
     path = "build_matrix/matrix.npy"
     matrix = np.load(path)
-    sample_sizes = list(range(50, 30000, 50))  # Sampling sizes to evaluate
+    sample_sizes = list(range(50, 300, 50))  # Sampling sizes to evaluate
     n_trials = 10  # Number of repeated trials for each sample size
     alpha = 1e-6   # Laplace smoothing factor
 
